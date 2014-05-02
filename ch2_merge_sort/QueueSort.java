@@ -1,9 +1,12 @@
 import java.util.*;
 
+
+/** Bottom-up mergesort : Given N items, create N queues, each containing one 
+ * of the items. Create a queue of the N queues. Apply the merging operation 
+ * to the first two queues and reinsert the merged queue at the end. 
+ * Repeat until the queue of queues contains only one queue.
+ */
 public class QueueSort{
-
-
-
 
     public static <E extends Comparable<E>> Deque<E> sort(ArrayList<E> a){
         

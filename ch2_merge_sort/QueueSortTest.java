@@ -1,17 +1,7 @@
-//package com.practicalunittesting.chp03.money;
-
 import org.junit.Assert;
 import org.junit.Test;
 import java.util.*;
 
-
-
-/**
- * Practical Unit Testing with JUnit and Mockito - source code for examples.
- * Visit http://practicalunittesting.com for more information.
- *
- * @author Tomek Kaczanowski
- */
 public class QueueSortTest {
 
 
@@ -30,12 +20,7 @@ public class QueueSortTest {
                 new Integer[]{1,2,3,4,5},
                 QueueSort.sort(a).toArray()
                 );
-
-
     }
-
-
-
 
 	@Test
 	public void mergeTest() {
